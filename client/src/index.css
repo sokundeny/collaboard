@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-link {
+  @apply border border-brand-yellow text-brand-yellow px-4 py-1 rounded hover:bg-brand-yellow hover:text-black transition
+}
+
+::-webkit-scrollbar {
+  width: 8px;  
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #161B27;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  border: none;
+}
+
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-corner {
+  display: none;
+  background: transparent;
+}
